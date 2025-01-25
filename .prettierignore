@@ -1,0 +1,5 @@
+docs/**/*.md
+dist/
+pnpm-lock.yaml
+**/locale/**
+stats.json

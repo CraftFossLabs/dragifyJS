@@ -1,0 +1,72 @@
+/* Class names prefixes */
+
+$app-prefix: 'dragify-' !default;
+$nv-prefix: $app-prefix !default;
+$rte-prefix: $app-prefix + 'rte-' !default;
+$mdl-prefix: $app-prefix + 'mdl-' !default;
+$am-prefix: $app-prefix + 'am-' !default;
+$cm-prefix: $app-prefix + 'cm-' !default;
+$pn-prefix: $app-prefix + 'pn-' !default;
+$com-prefix: $app-prefix + 'com-' !default;
+$sm-prefix: $app-prefix + 'sm-' !default;
+$cv-prefix: $app-prefix + 'cv-' !default;
+$clm-prefix: $app-prefix + 'clm-' !default;
+$trt-prefix: $app-prefix + 'trt-' !default;
+$cui-cls: $app-prefix + 'cui' !default;
+
+/*
+  New Pattern Color System
+  With this should be easier to overwrite colors
+  not only in SCSS but even CSS
+*/
+$primaryColor: #1067b5 !default; /* Dark blue */
+$secondaryColor: #e8f4f8 !default; /* Light blue */
+$tertiaryColor: #62c462 !default; /* Green */
+$quaternaryColor: #ffffff !default; /* White */
+
+/* Dark theme */
+$mainColor: #1067b5 !default; /* Dark blue */
+$fontColor: #ffffff !default; /* White */
+$fontColorActive: #c4e4f2 !default; /* Light blue accent */
+
+$mainDkColor: rgba(0, 0, 0, 0.5) !default; /* Semi-transparent black */
+$mainDklColor: rgba(0, 0, 0, 0.3) !default; /* Slightly lighter */
+$mainLhColor: rgba(255, 255, 255, 0.1) !default; /* Subtle white highlight */
+$mainLhlColor: rgba(255, 255, 255, 0.7) !default; /* Soft white */
+$softLhColor: rgba(255, 255, 255, 0.02) !default; /* Subtle overlay */
+$colorBlue: #3b97e3 !default; /* Bright blue */
+$colorRed: #dd3636 !default; /* Red (unchanged, for alerts/warnings) */
+$colorYell: #ffca6f !default; /* Yellow (unchanged, for warnings) */
+$colorGreen: #62c462 !default; /* Bright green */
+$leftWidth: 15% !default;
+
+/* Color Helpers */
+$colorHighlight: #62c9f5 !default; /* Vibrant blue for highlights */
+$colorWarn: #ffc107 !default; /* Yellowish warning (consistent with other themes) */
+
+/* Canvas */
+$hndlMargin: -5px !default;
+$canvasTop: 40px !default;
+
+/* Components / Inputs */
+$lightBorder: rgba(255, 255, 255, 0.05) !default;
+$arrowColor: $mainLhlColor !default; /* b1b1b1 */
+$darkTextShadow: $mainDkColor !default; /* #252525 */
+$colorpSize: 22px !default;
+$inputPadding: 5px !default; // Has to be a single value
+
+/* Class manager */
+$paddElClm: 5px 6px !default;
+
+/* File uploader */
+$uploadPadding: 150px 10px !default;
+
+/* Commands */
+$animSpeed: 0.2s !default;
+
+/* Fonts */
+$mainFont: Helvetica, sans-serif !default;
+$fontSize: 0.75rem !default;
+
+/* Tools */
+$placeholderColor: var(--dragify-color-green) !default;

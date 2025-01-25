@@ -1,0 +1,18 @@
+$dragify-is-prefix: '.#{$app-prefix}is__';
+
+@function dragify-is($name) {
+  @return '#{$dragify-is-prefix}#{$name}';
+}
+
+#{$dragify-is-prefix} {
+  &grab,
+  &grab * {
+    cursor: grab !important;
+  }
+
+  &grabbing,
+  &grabbing * {
+    @include user-select(none);
+    cursor: grabbing !important;
+  }
+}
